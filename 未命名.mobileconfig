@@ -1,57 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>PayloadContent</key>
-	<array>
-		<dict>
-			<key>AutoJoin</key>
-			<true/>
-			<key>CaptiveBypass</key>
-			<false/>
-			<key>DisableAssociationMACRandomization</key>
-			<false/>
-			<key>EncryptionType</key>
-			<string>Any</string>
-			<key>HIDDEN_NETWORK</key>
-			<false/>
-			<key>IsHotspot</key>
-			<false/>
-			<key>Password</key>
-			<string>oooooooo</string>
-			<key>PayloadDescription</key>
-			<string>配置 Wi-Fi 设置</string>
-			<key>PayloadDisplayName</key>
-			<string>Wi-Fi</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.wifi.managed.FBEA1893-61E8-450F-BC3F-8EB61C43A774</string>
-			<key>PayloadType</key>
-			<string>com.apple.wifi.managed</string>
-			<key>PayloadUUID</key>
-			<string>FBEA1893-61E8-450F-BC3F-8EB61C43A774</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProxyServer</key>
-			<string>172.20.10.11</string>
-			<key>ProxyServerPort</key>
-			<integer>7890</integer>
-			<key>ProxyType</key>
-			<string>Manual</string>
-			<key>SSID_STR</key>
-			<string>iPhone</string>
-		</dict>
-	</array>
-	<key>PayloadDisplayName</key>
-	<string>未命名</string>
-	<key>PayloadIdentifier</key>
-	<string>Mac-mini.5B193AE3-BC7F-4C91-92F9-CE3D6E9FAEBB</string>
-	<key>PayloadRemovalDisallowed</key>
-	<false/>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadUUID</key>
-	<string>DEEF49EB-58CD-4D5C-9C9C-435A395695AD</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
-</dict>
-</plist>
+🇭🇰 香港M01 = ss, 121.37.23.191, 38916, encrypt-method=aes-256-gcm, password=233blog.com, udp-relay=true
+🇭🇰 香港E01 = trojan, 116.205.132.175, 38916, password=123, skip-cert-verify=true, udp-relay=true
+🇭🇰 香港D02 = trojan, 120.232.214.80, 38916, password=123, skip-cert-verify=true, udp-relay=true
+🇭🇰 香港M02 = ss, 120.232.82.220, 38916, encrypt-method=aes-256-gcm, password=233blog.com, udp-relay=true
+🇭🇰 香港F02 = ss, 120.232.214.97, 38916, encrypt-method=aes-256-gcm, password=123, udp-relay=true
+🇭🇰 香港E02 = trojan, 120.232.214.150, 38916, password=123, skip-cert-verify=true, udp-relay=true
+🇭🇰 香港HKT02 = ss, 120.233.10.192, 38916, encrypt-method=aes-256-gcm, password=123, udp-relay=true
+🇭🇰 香港D03 = trojan, 42.157.192.41, 50000, password=123, skip-cert-verify=true, tfo=true, udp-relay=true
+🇭🇰 香港M03 = ss, 14.152.85.45, 22222, encrypt-method=aes-256-gcm, password=233blog.com, udp-relay=true
+🇭🇰 香港F03 = ss, 14.152.85.45, 41001, encrypt-method=aes-256-gcm, password=123, udp-relay=true
+🇭🇰 香港HKT03 = ss, 14.152.85.45, 41000, encrypt-method=aes-256-gcm, password=123, udp-relay=true
+🇭🇰 香港HH = ss, 42.157.192.41, 50001, encrypt-method=aes-256-gcm, password=123, udp-relay=true
+🇭🇰 香港E200 = ss, 42.157.192.41, 10022, encrypt-method=aes-256-gcm, password=e856bed0-6d56-4e0e-b4ff-2ee9b45c4d70, udp-relay=true
+🇭🇰 香港M04 = ss, 14.29.124.43, 10000, encrypt-method=aes-256-gcm, password=233blog.com, udp-relay=true
+🇭🇰 香港E04 = trojan, 14.29.124.43, 10001, password=123, skip-cert-verify=true, udp-relay=true
+🇭🇰 香港F04 = ss, 14.29.124.43, 10004, encrypt-method=aes-256-gcm, password=123, udp-relay=true
+🇭🇰 香港HKT04 = ss, 14.29.124.43, 10002, encrypt-method=aes-256-gcm, password=123, udp-relay=true
+
+🇸🇬 新加坡F01 = trojan, 120.78.175.138, 38916, password=123, skip-cert-verify=true
+🇸🇬 新加坡F02 = trojan, 14.152.85.45, 33333, password=123, skip-cert-verify=true
+🇸🇬 新加坡F03 = trojan, 42.157.192.41, 50020, password=123, skip-cert-verify=true
+🇸🇬 新加坡F04 = trojan, 14.29.124.43, 10003, password=123, skip-cert-verify=true
+🇸🇬 新加坡D01 = ss, 120.79.39.85, 38916, encrypt-method=aes-256-gcm, password=233blog.com, udp-relay=true
+🇸🇬 新加坡D02 = trojan, 120.232.214.242, 38916, password=123, skip-cert-verify=true
+🇸🇬 新加坡D03 = ss, 14.29.124.43, 20005, encrypt-method=aes-256-gcm, password=233blog.com, udp-relay=true
+🇸🇬 新加坡D04 = ss, 14.152.85.45, 64451, encrypt-method=aes-256-gcm, password=233blog.com, udp-relay=true
+🇸🇬 新加坡G = ss, 14.29.124.43, 10005, encrypt-method=aes-256-gcm, password=123, udp-relay=true
+
+🇯🇵 日本 01 = ss, 120.232.214.99, 38916, encrypt-method=aes-256-gcm, password=123456, udp-relay=true
+🇯🇵 日本 02 = ss, 14.152.85.45, 55555, encrypt-method=aes-256-gcm, password=123456, udp-relay=true 
+🇯🇵 日本 03 = ss, cscu.tenglong.co, 50456, encrypt-method=aes-256-gcm, password=123456, udp-relay=true
+🇯🇵 日本 04 = trojan, gzcm.tenglong.co, 50505, password=123, skip-cert-verify=true, udp-relay=true
+
+🇰🇷 韩国 01 = trojan, 14.152.85.45, 64455, password=123, skip-cert-verify=true
+
+🇺🇸 美国 01 = ss, 120.232.82.190, 38916, password=233blog.com, encrypt-method=aes-256-gcm, udp-relay=true
+🇺🇸 美国 02 = ss, 120.77.207.169, 38916, password=233blog.com, encrypt-method=aes-256-gcm, udp-relay=true
+🇺🇸 美国 03 = trojan, gia.sds13.tk, 11113, password=123, skip-cert-verify=true, udp-relay=true
+🇺🇸 美国 04 = trojan, 101.230.149.38, 56816, password=123, skip-cert-verify=true, udp-relay=true
+
+🇬🇧 英国 01= ss, 14.152.85.45, 64454, encrypt-method=aes-256-gcm, password=123, udp-relay=true
+
+🇱🇺 卢森堡 01 = ss, 120.232.148.20, 48057, encrypt-method=aes-256-gcm, password=e856bed0-6d56-4e0e-b4ff-2ee9b45c4d70, udp-relay=true, tfo=true
+🇱🇺 卢森堡 02 = ss, 42.157.192.41, 50070, encrypt-method=aes-256-gcm, password=e856bed0-6d56-4e0e-b4ff-2ee9b45c4d70, udp-relay=true, tfo=true
+🇱🇺 卢森堡 03 = ss, 120.232.214.15, 38916, encrypt-method=aes-256-gcm, password=e856bed0-6d56-4e0e-b4ff-2ee9b45c4d70, udp-relay=true, tfo=true
+
