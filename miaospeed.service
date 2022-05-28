@@ -1,0 +1,15 @@
+[Unit]
+Description=miaospeed
+After=network-online.target
+Wants=network-online.target systemd-networkd-wait-online.service
+
+[Service]
+Type=simple
+User=root
+Restart=on-failure
+RestartSec=5s
+DynamicUser=true
+ExecStart=/miaoko/miaospeed -b 0.0.0.0:9876 -t wgg87843535
+
+[Install]
+WantedBy=multi-user.target
