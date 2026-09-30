@@ -1,0 +1,16 @@
+# WeChat NewDNS / HTTPDNS endpoints
+# Captured/identified on WeChat for macOS 4.1.15 (2026-09-30)
+# Intended usage:
+# RULE-SET,https://raw.githubusercontent.com/Dsd1001/111/main/WeChatNewDNS.list,REJECT
+#
+# Scope is restricted to /Applications/WeChat.app/ so shared DNS infrastructure
+# such as 119.29.29.29 is not rejected for other applications.
+
+AND,((PROCESS-NAME,/Applications/WeChat.app/),(DOMAIN,dns.wechat.com))
+AND,((PROCESS-NAME,/Applications/WeChat.app/),(DOMAIN,dns.weixin.qq.com))
+AND,((PROCESS-NAME,/Applications/WeChat.app/),(DOMAIN,dns.weixin.qq.com.cn))
+AND,((PROCESS-NAME,/Applications/WeChat.app/),(DOMAIN,udns.weixin.qq.com))
+AND,((PROCESS-NAME,/Applications/WeChat.app/),(DOMAIN,usdns.wechat.com))
+AND,((PROCESS-NAME,/Applications/WeChat.app/),(DOMAIN,paydns.weixin.qq.com))
+AND,((PROCESS-NAME,/Applications/WeChat.app/),(DOMAIN,paydns.wechat.com))
+AND,((PROCESS-NAME,/Applications/WeChat.app/),(IP-CIDR,119.29.29.29/32,no-resolve))
