@@ -1,16 +1,17 @@
 # WeChat NewDNS / HTTPDNS endpoints
 # Captured/identified on WeChat for macOS 4.1.15 (2026-09-30)
+# Cross-platform Surge ruleset for macOS / iOS.
 # Intended usage:
 # RULE-SET,https://raw.githubusercontent.com/Dsd1001/111/main/WeChatNewDNS.list,REJECT
 #
-# Scope is restricted to /Applications/WeChat.app/ so shared DNS infrastructure
-# such as 119.29.29.29 is not rejected for other applications.
+# WARNING: These rules are global. Any app using the same DNS infrastructure
+# will also be rejected.
 
-AND,((PROCESS-NAME,/Applications/WeChat.app/),(DOMAIN,dns.wechat.com))
-AND,((PROCESS-NAME,/Applications/WeChat.app/),(DOMAIN,dns.weixin.qq.com))
-AND,((PROCESS-NAME,/Applications/WeChat.app/),(DOMAIN,dns.weixin.qq.com.cn))
-AND,((PROCESS-NAME,/Applications/WeChat.app/),(DOMAIN,udns.weixin.qq.com))
-AND,((PROCESS-NAME,/Applications/WeChat.app/),(DOMAIN,usdns.wechat.com))
-AND,((PROCESS-NAME,/Applications/WeChat.app/),(DOMAIN,paydns.weixin.qq.com))
-AND,((PROCESS-NAME,/Applications/WeChat.app/),(DOMAIN,paydns.wechat.com))
-AND,((PROCESS-NAME,/Applications/WeChat.app/),(IP-CIDR,119.29.29.29/32,no-resolve))
+DOMAIN,dns.wechat.com
+DOMAIN,dns.weixin.qq.com
+DOMAIN,dns.weixin.qq.com.cn
+DOMAIN,udns.weixin.qq.com
+DOMAIN,usdns.wechat.com
+DOMAIN,paydns.weixin.qq.com
+DOMAIN,paydns.wechat.com
+IP-CIDR,119.29.29.29/32,no-resolve
